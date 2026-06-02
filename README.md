@@ -1,16 +1,81 @@
-# React + Vite
+# Compiler Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based Compiler Simulator built using React and Vite. This project demonstrates the basic working of a compiler by allowing users to input source code and visualize different phases of compilation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User-friendly interface
+- Source code input editor
+- Lexical Analysis
+- Syntax Analysis
+- Error Detection
+- Fast performance with Vite
+- Responsive design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/ADITYAMEHRA247/COMPILER-SIMULATORR.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd COMPILER-SIMULATORR
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+COMPILER-SIMULATORR/
+│
+├── public/
+├── src/
+├── package.json
+├── vite.config.js
+├── index.html
+└── README.md
+```
+
+## Usage
+
+1. Enter source code into the editor.
+2. Run the compiler simulation.
+3. View tokens, syntax validation, and compilation results.
+4. Analyze errors and outputs.
+
+## Future Enhancements
+
+- Semantic Analysis
+- Code Optimization
+- Intermediate Code Generation
+- Symbol Table Visualization
+- Multiple Language Support
+
+## Author
+
+Aditya Mehra
+
+GitHub: https://github.com/ADITYAMEHRA247
